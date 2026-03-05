@@ -81,7 +81,7 @@ function connectToCentral() {
         console.log('✅ Connected to Central Dashboard');
         
         // Register this worker
-        send Central({
+        sendToCentral({
             type: 'worker_register',
             workerId: CONFIG.WORKER_ID,
             slotOffset: CONFIG.SLOT_OFFSET,
