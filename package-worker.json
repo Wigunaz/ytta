@@ -1,0 +1,12 @@
+{
+  "name": "vps-worker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node vps-worker.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.21.0",
+    "ws": "^8.14.2",
+    "axios": "^1.6.0"
+  }
+}
